@@ -7,5 +7,5 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://jaam85.github.io/Portfolio',
 	base: "/",	
-	integrations: [mdx(), sitemap()]
+	integrations: [mdx(), sitemap()],
 });
