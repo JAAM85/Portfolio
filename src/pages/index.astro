@@ -10,8 +10,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	</head>
 	<body>
 		<main>
-			<div class="noto-sans-jp-900" style="height: 90vh;">
-				<h1 class="center" id="movetxt1">J<span style="color: #dda15e">OSE</span></h1>
+			<div class="noto-sans-jp-900" style="height: 101vh;">
+				<h1 class="center" id="movetxt1">J<span style="color: #dda15e;">OSE</span></h1>
 				<h1 class="center" id="movetxt2">A<span style="color: #dda15e;">NDRES</span></h1>
 				<h1 class="center" id="movetxt3">A<span style="color: #dda15e;">LBALADEJO</span></h1>
 				<h1 class="center" id="movetxt4">M<span style="color: #dda15e;">ORENO</span></h1>	
@@ -31,9 +31,16 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 .noto-sans-jp-900 {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 400;
   font-style: normal;
+
+  
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
+
 
 #movetxt1 {
     -webkit-animation: moving 2.5s none;
