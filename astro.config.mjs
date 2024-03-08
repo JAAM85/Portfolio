@@ -5,7 +5,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://jaam85.github.io/Portfolio',
-	base: "/",	
+	site: 'https://jaam85.github.io',
+	base: "/Portfolio",	
+	trailingSlash: "never",
 	integrations: [mdx(), sitemap()],
 });
