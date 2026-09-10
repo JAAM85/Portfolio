@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad · PHRONIOX</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1a1a1a; --bg:#fff; --muted:#5a5a5a; --line:#e3e3e3; --accent:#1B6B50; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#e8e8e8; --bg:#111614; --muted:#a0a0a0; --line:#2a2f2c; --accent:#4CAF7D; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 36px 0 10px; color: var(--accent); }
+  h3 { font-size: 16px; margin: 22px 0 6px; }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; }
+  ul { padding-left: 22px; }
+  li { margin: 5px 0; }
+  a { color: var(--accent); }
+  .note {
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    border-left: 3px solid var(--accent); padding: 14px 16px; margin: 18px 0; border-radius: 0 8px 8px 0;
+  }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  code { background: color-mix(in srgb, var(--fg) 8%, transparent); padding: 1px 5px; border-radius: 4px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Política de Privacidad</h1>
+<p class="meta">PHRONIOX (MyFin) · Última actualización: 10 de septiembre de 2026</p>
+
+<h2>1. Responsable del tratamiento</h2>
+<table>
+  <tr><th>Responsable</th><td>José Andrés Albaladejo Moreno</td></tr>
+  <tr><th>Contacto</th><td><a href="mailto:albaladejo.moreno@gmail.com">albaladejo.moreno@gmail.com</a></td></tr>
+  <tr><th>Aplicación</th><td>PHRONIOX — aplicación de finanzas personales</td></tr>
+</table>
+
+<h2>2. Qué datos tratamos</h2>
+
+<h3>Datos que facilitas</h3>
+<ul>
+  <li>Dirección de correo electrónico y nombre para identificar tu cuenta.</li>
+  <li>Extractos bancarios que decidas importar manualmente (CSV o Norma 43).</li>
+  <li>Categorías y reglas que definas sobre tus movimientos.</li>
+</ul>
+
+<h3>Datos obtenidos de tu banco</h3>
+<p>Solo si autorizas expresamente la conexión con tu entidad:</p>
+<ul>
+  <li>Identificadores y nombres de tus cuentas, tipo de cuenta y divisa.</li>
+  <li>Saldos.</li>
+  <li>Movimientos: fecha, importe, concepto, comercio o contraparte.</li>
+</ul>
+
+<div class="note">
+  <strong>Nunca accedemos a tus credenciales bancarias.</strong> La autenticación
+  ocurre íntegramente en la web o aplicación de tu banco. PHRONIOX no ve, no
+  recibe y no almacena tus claves de acceso, y el permiso concedido es
+  <strong>exclusivamente de lectura</strong>: no es técnicamente posible iniciar
+  pagos ni modificar nada en tus cuentas.
+</div>
+
+<h3>Datos que NO tratamos</h3>
+<ul>
+  <li>No guardamos tu IBAN completo: solo un hash irreversible y los cuatro últimos dígitos, para que puedas identificar la cuenta.</li>
+  <li>No usamos cookies de seguimiento ni herramientas de analítica de terceros.</li>
+  <li>No tratamos categorías especiales de datos personales.</li>
+</ul>
+
+<h2>3. Para qué usamos tus datos</h2>
+<table>
+  <tr><th>Finalidad</th><th>Base legal (RGPD)</th></tr>
+  <tr>
+    <td>Mostrarte tus movimientos, categorizarlos y calcular tus estadísticas de gasto</td>
+    <td>Ejecución del contrato — art. 6.1.b</td>
+  </tr>
+  <tr>
+    <td>Acceder a la información de tus cuentas a través de tu entidad bancaria</td>
+    <td>Consentimiento explícito — art. 6.1.a, revocable en cualquier momento</td>
+  </tr>
+  <tr>
+    <td>Detectar suscripciones, gastos recurrentes, comisiones y desviaciones de gasto</td>
+    <td>Ejecución del contrato — art. 6.1.b</td>
+  </tr>
+  <tr>
+    <td>Mantener la seguridad del servicio y diagnosticar errores</td>
+    <td>Interés legítimo — art. 6.1.f</td>
+  </tr>
+</table>
+
+<p><strong>No usamos tus datos para publicidad, elaboración de perfiles comerciales
+ni decisiones automatizadas con efectos jurídicos.</strong></p>
+
+<h2>4. Con quién compartimos tus datos</h2>
+<p>No vendemos ni cedemos tus datos. Solo intervienen los proveedores estrictamente
+necesarios para prestar el servicio:</p>
+
+<table>
+  <tr><th>Proveedor</th><th>Función</th><th>Ubicación</th></tr>
+  <tr>
+    <td>Enable Banking Oy</td>
+    <td>Proveedor de servicios de información sobre cuentas (AISP) autorizado bajo PSD2. Es quien conecta técnicamente con tu banco.</td>
+    <td>Finlandia (UE)</td>
+  </tr>
+</table>
+
+<p>Podemos comunicar datos a autoridades públicas cuando exista obligación legal.</p>
+
+<h2>5. Dónde se guardan y cuánto tiempo</h2>
+<ul>
+  <li>Los datos se almacenan en servidores situados en el <strong>Espacio Económico Europeo</strong>. No realizamos transferencias internacionales fuera del EEE.</li>
+  <li>Los tokens de acceso a tu banco se guardan <strong>cifrados con AES-256-GCM</strong>.</li>
+  <li>Conservamos tus datos mientras mantengas la cuenta activa. Si la eliminas, se borran en un plazo máximo de <strong>30 días</strong>, salvo obligación legal de conservación.</li>
+  <li>El permiso de acceso a tu banco caduca automáticamente a los <strong>90 días</strong>, conforme exige la normativa PSD2. Para seguir sincronizando deberás renovarlo.</li>
+</ul>
+
+<h2>6. Tus derechos</h2>
+<p>Puedes ejercer en cualquier momento los siguientes derechos escribiendo a
+<a href="mailto:albaladejo.moreno@gmail.com">albaladejo.moreno@gmail.com</a>:</p>
+<ul>
+  <li><strong>Acceso</strong> — obtener copia de los datos que tratamos sobre ti.</li>
+  <li><strong>Rectificación</strong> — corregir datos inexactos.</li>
+  <li><strong>Supresión</strong> — solicitar el borrado de tus datos.</li>
+  <li><strong>Portabilidad</strong> — recibir tus datos en formato estructurado y de uso común.</li>
+  <li><strong>Oposición y limitación</strong> — oponerte al tratamiento o solicitar su limitación.</li>
+  <li><strong>Retirar el consentimiento</strong> — desconectar tu banco cuando quieras, desde la propia aplicación, sin que ello afecte a la licitud del tratamiento previo.</li>
+</ul>
+
+<p>Responderemos en el plazo máximo de un mes. Si consideras que no hemos atendido
+correctamente tu solicitud, puedes reclamar ante la
+<a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos (AEPD)</a>.</p>
+
+<h2>7. Seguridad</h2>
+<ul>
+  <li>Comunicaciones cifradas mediante TLS.</li>
+  <li>Secretos y tokens cifrados en reposo con AES-256-GCM (cifrado autenticado).</li>
+  <li>Autenticación con tu banco mediante JWT firmado con criptografía asimétrica RSA-2048.</li>
+  <li>Principio de minimización: no se solicitan más datos ni más permisos de los necesarios.</li>
+</ul>
+
+<h2>8. Menores</h2>
+<p>El servicio no está dirigido a menores de 18 años y no recogemos datos de
+menores de forma consciente.</p>
+
+<h2>9. Cambios en esta política</h2>
+<p>Si modificamos esta política, actualizaremos la fecha del encabezado. Los cambios
+sustanciales se comunicarán por correo electrónico antes de su entrada en vigor.</p>
+
+<footer>
+  PHRONIOX · Responsable: José Andrés Albaladejo Moreno ·
+  <a href="mailto:albaladejo.moreno@gmail.com">albaladejo.moreno@gmail.com</a><br>
+  <a href="terms.html">Términos de uso</a>
+</footer>
+
+</main>
+</body>
+</html>

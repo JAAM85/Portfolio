@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Términos de Uso · PHRONIOX</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1a1a1a; --bg:#fff; --muted:#5a5a5a; --line:#e3e3e3; --accent:#1B6B50; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#e8e8e8; --bg:#111614; --muted:#a0a0a0; --line:#2a2f2c; --accent:#4CAF7D; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 36px 0 10px; color: var(--accent); }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; }
+  ul { padding-left: 22px; }
+  li { margin: 5px 0; }
+  a { color: var(--accent); }
+  .note {
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    border-left: 3px solid var(--accent); padding: 14px 16px; margin: 18px 0; border-radius: 0 8px 8px 0;
+  }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Términos de Uso</h1>
+<p class="meta">PHRONIOX (MyFin) · Última actualización: 10 de septiembre de 2026</p>
+
+<h2>1. Quiénes somos</h2>
+<table>
+  <tr><th>Titular</th><td>José Andrés Albaladejo Moreno</td></tr>
+  <tr><th>Contacto</th><td><a href="mailto:albaladejo.moreno@gmail.com">albaladejo.moreno@gmail.com</a></td></tr>
+  <tr><th>Servicio</th><td>PHRONIOX — aplicación de finanzas personales</td></tr>
+</table>
+
+<p>El uso de la aplicación implica la aceptación de estos términos. Si no estás de
+acuerdo con ellos, no utilices el servicio.</p>
+
+<h2>2. Qué es PHRONIOX</h2>
+<p>PHRONIOX es una herramienta de <strong>información y análisis</strong> de finanzas
+personales. Te permite:</p>
+<ul>
+  <li>Importar extractos bancarios (CSV, Norma 43) o conectar tu banco mediante PSD2.</li>
+  <li>Ver en qué gastas tu dinero, clasificado por categorías.</li>
+  <li>Detectar suscripciones, gastos recurrentes, comisiones y desviaciones de gasto.</li>
+  <li>Consultar indicadores sobre tu situación financiera.</li>
+</ul>
+
+<h2>3. Qué NO es PHRONIOX</h2>
+<div class="note">
+  <strong>PHRONIOX no es una entidad financiera ni presta asesoramiento
+  financiero, fiscal, contable ni de inversión.</strong> La información y las
+  sugerencias que muestra tienen carácter meramente informativo y orientativo.
+  Cualquier decisión económica que tomes es de tu exclusiva responsabilidad.
+  Para decisiones relevantes, consulta con un profesional cualificado.
+</div>
+
+<p>Además, la aplicación:</p>
+<ul>
+  <li><strong>No mueve dinero.</strong> El acceso a tu banco es exclusivamente de lectura; no puede ordenar transferencias ni pagos.</li>
+  <li><strong>No custodia fondos.</strong> Tu dinero permanece siempre en tu entidad bancaria.</li>
+  <li><strong>No sustituye a tu banco.</strong> Los datos oficiales de tus cuentas son siempre los de tu entidad.</li>
+</ul>
+
+<h2>4. Conexión con tu banco</h2>
+<p>La conexión se realiza a través de <strong>Enable Banking Oy</strong>, proveedor
+de servicios de información sobre cuentas (AISP) autorizado conforme a la
+Directiva PSD2 (UE) 2015/2366.</p>
+<ul>
+  <li>Te autenticas directamente en la web o app de tu banco. PHRONIOX nunca ve tus credenciales.</li>
+  <li>El permiso concedido es de <strong>solo lectura</strong> y caduca automáticamente a los <strong>90 días</strong>, según exige la normativa.</li>
+  <li>Puedes revocar el permiso en cualquier momento desde la aplicación o desde tu propio banco.</li>
+  <li>Al revocarlo, dejamos de sincronizar. Los movimientos ya descargados se conservan hasta que solicites su eliminación.</li>
+</ul>
+
+<h2>5. Tus obligaciones</h2>
+<p>Al usar PHRONIOX te comprometes a:</p>
+<ul>
+  <li>Conectar únicamente cuentas de tu titularidad o sobre las que tengas autorización expresa.</li>
+  <li>Facilitar información veraz y mantener la confidencialidad de tus credenciales de acceso.</li>
+  <li>No intentar acceder a datos de otros usuarios, ni realizar ingeniería inversa o ataques contra el servicio.</li>
+  <li>No utilizar el servicio con fines ilícitos ni contrarios a la buena fe.</li>
+</ul>
+
+<h2>6. Disponibilidad y limitación de responsabilidad</h2>
+<p>El servicio se presta <strong>"tal cual"</strong>, sin garantías de disponibilidad
+ininterrumpida. En particular:</p>
+<ul>
+  <li>La sincronización depende de la API de tu banco, que puede fallar, cambiar o limitar el número de consultas diarias.</li>
+  <li>La categorización automática de movimientos es aproximada y puede contener errores. Puedes corregirla manualmente.</li>
+  <li>Los cálculos e indicadores son estimaciones basadas en los datos disponibles, no cifras oficiales.</li>
+</ul>
+
+<p>En la máxima medida permitida por la ley, el titular no será responsable de
+pérdidas o daños derivados de decisiones tomadas a partir de la información
+mostrada, de interrupciones del servicio o de errores en los datos suministrados
+por terceros. Nada en estos términos excluye la responsabilidad por dolo o
+negligencia grave, ni los derechos que la normativa de consumo te reconozca de
+forma imperativa.</p>
+
+<h2>7. Propiedad intelectual</h2>
+<p>El software, su diseño y su código son titularidad de José Andrés Albaladejo
+Moreno. <strong>Tus datos financieros son tuyos</strong>: puedes exportarlos o
+solicitar su eliminación cuando quieras.</p>
+
+<h2>8. Cancelación</h2>
+<p>Puedes dejar de usar el servicio y solicitar la eliminación de tu cuenta en
+cualquier momento escribiendo a
+<a href="mailto:albaladejo.moreno@gmail.com">albaladejo.moreno@gmail.com</a>.
+Nos reservamos el derecho de suspender cuentas que incumplan estos términos.</p>
+
+<h2>9. Modificaciones</h2>
+<p>Podemos actualizar estos términos. Los cambios sustanciales se comunicarán por
+correo electrónico con antelación razonable. El uso continuado del servicio tras
+la entrada en vigor implica su aceptación.</p>
+
+<h2>10. Legislación y jurisdicción</h2>
+<p>Estos términos se rigen por la legislación española. Para cualquier controversia
+serán competentes los juzgados y tribunales que correspondan conforme a la
+normativa aplicable; si eres consumidor, los de tu domicilio.</p>
+
+<footer>
+  PHRONIOX · Titular: José Andrés Albaladejo Moreno ·
+  <a href="mailto:albaladejo.moreno@gmail.com">albaladejo.moreno@gmail.com</a><br>
+  <a href="privacy.html">Política de privacidad</a>
+</footer>
+
+</main>
+</body>
+</html>
